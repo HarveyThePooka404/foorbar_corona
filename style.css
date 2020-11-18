@@ -1,0 +1,44 @@
+.wrapper {
+    border: solid 1px black;
+    height: 200px;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+}
+
+.bar {
+    height: 0px;
+    width: 2vw;
+    background-color: red;
+    border: solid 1px black;
+}
+
+#bar_0 {
+    height: 150px;
+}
+
+section {
+
+    display: flex;
+    flex-flow: column;
+    margin: 0 10vw 0 10vw;
+    text-align: center;
+
+}
+
+.wrapper-people {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(90px, 1fr));
+}
+
+.title-wrapper {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    margin: 1em;
+    font-size: 3em;
+}
